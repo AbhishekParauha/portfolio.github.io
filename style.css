@@ -255,14 +255,17 @@ h1{
 }
 @media(max-width:332px){
     #name{
-        font-size: 8px;
+        font-size: 6px;
     }
     #navbar ul li{
-        font-size:8px;
+        font-size:6px;
     }
     
 .h-primary{
     font-size: 1.5rem;
 
-}
+}  .profile{
+        height: 300px;
+        
+    }
 }
