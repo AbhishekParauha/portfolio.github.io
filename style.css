@@ -255,9 +255,9 @@ h1{
 }
 @media(max-width:332px){
     #name{
-        font-size: 12px;
+        font-size: 8px;
     }
     #navbar ul li{
-        font-size:12px;
+        font-size:8px;
     }
 }
