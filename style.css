@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+#name{
+    color: white;
+     font-size:1.6rem ;
+     margin-left: 5%;
+     margin-right: 50%;
+     margin-top: 15px;
+     align-items: center;
+}
+#name a{
+    color:white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#name a:hover{
+    color:black;
+    background-color: white;
+}
+
+
+/* :root{
+    --navbar-height: 59px;
+    
+} */
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: right;
+    height: 80px;
+    
+}
+
+
+/* navigation bar : list styling */
+#navbar{
+    position: sticky;
+}
+#navbar ul{
+    display: flex;
+    align-items: right;
+    
+}
+#navbar ::before{
+    content:"";
+    background-color:#659dbd;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    
+
+}
+
+#navbar ul li{
+    /* color white  */
+    list-style: none;
+    font-size: 1.6rem;
+    margin-top: 15px;
+    
+}
+
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+#home{
+    
+    margin-left: 4%;
+    margin-right: 4%;
+    
+    
+    
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+.wholepage{
+    background-color: #daad86;
+}
+
+.h-primary{
+    font-size: 5rem;
+
+}
+#home{
+    font-size: 2rem;
+}
+.btn{
+    font-size: 2rem;
+    margin-top: 5%;
+    padding: 2%;
+
+    border: 5px solid blue;
+    background-color: darkcyan;
+    color:white ;
+    
+    
+    border-radius: 50px;
+    cursor: pointer;
+}
+#Skills{
+    align-items: center;
+    margin-top: 5%;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+.myskills{
+    margin-top: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#MyHobbies{
+    align-items: center;
+    margin-top: 5%;
+    background-color: #bc986a;
+    padding-top: 5%;
+    
+}
+.hobby{
+    text-align: center;
+
+}
+#Contact{
+    text-align: center;
+    
+    padding-top: 25px;
+}
+.responsive{
+    height: 400px;
+    margin-top: 5%;
+}
+@media (max-width:1065px){
+    #name{
+        margin-right: 25%;
+    }
+    #navbar ul li{
+        font-size: 1 rem;
+    }
+    #name {
+        font-size: 1 rem;
+    }
+}
+
+@media(max-width:830px){
+    #name {
+        margin-right: 10%;
+        
+        
+    }
+    .responsive{
+        height: 200px;
+    }
+    
+    
+}
+@media(max-width:644px){
+    .h-primary{
+        font-size: 3rem;
+    
+    }
+    #home{
+        font-size: 1 rem;
+    }
+    #name {
+        margin-right: 4%;
+        margin-left: 1%;
+    }
+}
+@media(max-width:484px){
+    #name {
+        margin-right: 0;
+        margin-left: 0;
+        font-size:20px ;
+        
+    }
+    #navbar ul li{
+        font-size:20px;
+    
+    }
+
+}
+@media(max-width:392px){
+    #name{
+        font-size: 15px;
+        text-align: left;
+    }
+    #navbar ul li{
+        font-size:15px;
+        text-align: left;
+    
+    }
+    #navbar{
+        height: 60px;
+    }
+    .h-primary{
+        font-size: 2rem;
+    
+    }
+    #home{
+        font-size: 0.5 rem;
+    }
+    .responsive{
+        height: 130px;
+    }
+}
+@media(max-width:332px){
+    #name{
+        font-size: 12px;
+    }
+    #navbar ul li{
+        font-size:12px;
+    }
+}
