@@ -260,4 +260,9 @@ h1{
     #navbar ul li{
         font-size:8px;
     }
+    
+.h-primary{
+    font-size: 1.5rem;
+
+}
 }
