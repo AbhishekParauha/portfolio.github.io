@@ -227,6 +227,10 @@ h1{
         font-size: 2rem;
     
     }
+    .profile{
+        height:350px;
+    
+    }
 
 }
 @media(max-width:392px){
